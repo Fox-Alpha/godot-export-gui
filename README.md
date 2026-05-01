@@ -42,8 +42,10 @@ pip install -r export_gui/requirements.txt
 python export_gui/export_gui.py
 ```
 
-Alternative (force reinstall):
+---
 
-```bash
-python -m pip install --force-reinstall --extra-index-url https://PySimpleGUI.net/install PySimpleGUI
-```
+## Part of godot-dev-toolkit
+
+Dieses Tool ist Teil des [godot-dev-toolkit](https://github.com/Fox-Alpha/godot-dev-toolkit) Hubs — einer Sammlung von Godot-Entwicklungstools.
+
+> **Hinweis:** Dieses Tool (PySimpleGUI) gilt als abgeschlossen. Eine Neuentwicklung mit C#/Avalonia ist als eigenständiges Projekt unter [godot-export-app](https://github.com/Fox-Alpha/godot-export-app) geplant.
